@@ -4,7 +4,11 @@
   "description": "sass gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.sass\" --syntax sass",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start"
   },
   "repository": {
     "type": "git",
@@ -17,10 +21,23 @@
   },
   "homepage": "https://github.com/maximiloi/starter-template#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
     "autoprefixer": "^9.8.4",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
-    "gulp-minify": "^3.1.0"
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^4.14.1",
+    "posthtml-include": "^1.4.3",
+    "stylelint": "^13.6.1"
   }
 }
