@@ -2,7 +2,7 @@
   "name": "starter-template",
   "version": "1.0.0",
   "description": "sass gulp",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.sass\" --syntax sass",
@@ -37,7 +37,9 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-webp": "^4.0.1",
     "node-sass": "^4.14.1",
+    "owl.carousel": "^2.3.4",
     "posthtml-include": "^1.4.3",
+    "sassy-normalize": "^8.0.5",
     "stylelint": "^13.6.1"
   }
 }
