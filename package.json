@@ -22,7 +22,7 @@
   "homepage": "https://github.com/maximiloi/starter-template#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
-    "autoprefixer": "^9.8.4",
+    "autoprefixer": "^9.8.6",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
