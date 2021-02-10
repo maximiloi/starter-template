@@ -23,7 +23,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.13",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
@@ -41,6 +41,7 @@
     "owl.carousel": "^2.3.4",
     "posthtml-include": "^1.4.3",
     "sassy-normalize": "^8.0.5",
+    "socket.io": "^3.1.1",
     "stylelint": "^13.6.1"
   }
 }
